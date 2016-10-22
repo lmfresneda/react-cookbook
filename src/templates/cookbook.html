@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+    <title>Curso React - Carrito de la compra</title>
+    <link rel="stylesheet" href="../../dist/index.css" />
+</head>
+<body>
+
+<div class="cookbook">
+    <!--Home-->
+    <div class="cookbook-home col one-whole">
+        <h1>Elija momento y día</h1>
+        <div class="cookbook-checkbox-moments col two-thirds">
+            <div class="col one-half cookbook-checkbox">
+                <input type="radio" name="cookbook-checkbox-moment" id="cookbook-moments-food"/>
+                <label for="cookbook-moments-food">
+                    Comida
+                </label>
+            </div>
+            <div class="col one-half cookbook-checkbox">
+                <input type="radio" name="cookbook-checkbox-moment" id="cookbook-moments-dinner"/>
+                <label for="cookbook-moments-dinner">
+                    Cena
+                </label>
+            </div>
+        </div>
+        <div class="cookbook-checkbox-days col four-fifths">
+            <div class="col one-seventh cookbook-checkbox">
+                <input type="radio" name="cookbook-checkbox-day" id="cookbook-day-1"/>
+                <label for="cookbook-day-1">
+                    Lunes
+                </label>
+            </div>
+            <div class="col one-seventh cookbook-checkbox">
+                <input type="radio" name="cookbook-checkbox-day" id="cookbook-day-2"/>
+                <label for="cookbook-day-2">
+                    Martes
+                </label>
+            </div>
+            <div class="col one-seventh cookbook-checkbox">
+                <input type="radio" name="cookbook-checkbox-day" id="cookbook-day-3"/>
+                <label for="cookbook-day-3">
+                    Miércoles
+                </label>
+            </div>
+            <div class="col one-seventh cookbook-checkbox">
+                <input type="radio" name="cookbook-checkbox-day" id="cookbook-day-4"/>
+                <label for="cookbook-day-4">
+                    Jueves
+                </label>
+            </div>
+            <div class="col one-seventh cookbook-checkbox">
+                <input type="radio" name="cookbook-checkbox-day" id="cookbook-day-5"/>
+                <label for="cookbook-day-5">
+                    Viernes
+                </label>
+            </div>
+            <div class="col one-seventh cookbook-checkbox">
+                <input type="radio" name="cookbook-checkbox-day" id="cookbook-day-6"/>
+                <label for="cookbook-day-6">
+                    Sábado
+                </label>
+            </div>
+            <div class="col one-seventh cookbook-checkbox">
+                <input type="radio" name="cookbook-checkbox-day" id="cookbook-day-7"/>
+                <label for="cookbook-day-7">
+                    Domingo
+                </label>
+            </div>
+        </div>
+
+        <div class="cookbook-checkbox-button col one-whole">
+            <a href="#">
+                Ver recetas &gt;&gt;
+            </a>
+        </div>
+
+    </div>
+
+    <!--Recipes-->
+    <div class="cookbook-recipes col one-whole" >
+        <h1>Recetas</h1>
+
+        <div class="cookbook-recipes-container">
+            <div class="cookbook-recipes-recipe">
+                <div class="col one-whole cookbook-recipes-recipe-photo">
+                    <img src="http://www.entrechiquitines.com/recetas/wp-content/uploads/2011/11/crema_calabacines.jpg" />
+                </div>
+                <div class="col one-whole cookbook-recipes-recipe-text">
+                    <h2>Garbanzos con chorizo</h2>
+                    <p>Tiempo de preparado: 45 min</p>
+                    <p>Tiene acompañamiento: No</p>
+                    <p>Fácil</p>
+                </div>
+            </div>
+            <div class="cookbook-recipes-recipe">
+                <div class="col one-whole cookbook-recipes-recipe-photo">
+                    <img src="http://www.entrechiquitines.com/recetas/wp-content/uploads/2011/11/crema_calabacines.jpg" />
+                </div>
+                <div class="col one-whole cookbook-recipes-recipe-text">
+                    <h2>Garbanzos con chorizo</h2>
+                    <p>Tiempo de preparado: 45 min</p>
+                    <p>Tiene acompañamiento: No</p>
+                    <p>Fácil</p>
+                </div>
+            </div>
+            <div class="cookbook-recipes-recipe">
+                <div class="col one-whole cookbook-recipes-recipe-photo">
+                    <img src="http://www.entrechiquitines.com/recetas/wp-content/uploads/2011/11/crema_calabacines.jpg" />
+                </div>
+                <div class="col one-whole cookbook-recipes-recipe-text">
+                    <h2>Garbanzos con chorizo</h2>
+                    <p>Tiempo de preparado: 45 min</p>
+                    <p>Tiene acompañamiento: No</p>
+                    <p>Fácil</p>
+                </div>
+            </div>
+            <div class="cookbook-recipes-recipe">
+                <div class="col one-whole cookbook-recipes-recipe-photo">
+                    <img src="http://www.entrechiquitines.com/recetas/wp-content/uploads/2011/11/crema_calabacines.jpg" />
+                </div>
+                <div class="col one-whole cookbook-recipes-recipe-text">
+                    <h2>Garbanzos con chorizo</h2>
+                    <p>Tiempo de preparado: 45 min</p>
+                    <p>Tiene acompañamiento: No</p>
+                    <p>Fácil</p>
+                </div>
+            </div>
+            <div class="cookbook-recipes-recipe">
+                <div class="col one-whole cookbook-recipes-recipe-photo">
+                    <img src="http://d23hecejka3k8e.cloudfront.net/wp-content/uploads/sites/2/2014/03/revuelto-de-champi%C3%B1on1.jpeg" />
+                </div>
+                <div class="col one-whole cookbook-recipes-recipe-text">
+                    <h2>Revuelto de champiñones</h2>
+                    <p>Tiempo de preparado: 45 min</p>
+                    <p>Tiene acompañamiento: No</p>
+                    <p>Fácil</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--One recipe-->
+    <div class="col one-whole">
+        <h1>Garbanzos con chorizo</h1>
+        <div class="cookbook-recipe col one-whole">
+            <div class="col one-whole cookbook-recipe-photo">
+                <img src="http://www.entrechiquitines.com/recetas/wp-content/uploads/2011/11/crema_calabacines.jpg" />
+            </div>
+            <div class="col one-whole cookbook-recipe-info-mini">
+                <ul>
+                    <li>45 min</li>
+                    <li>Sin acompañamiento</li>
+                    <li>Receta Fácil</li>
+                    <li>1.5 porciones (Un vaso y medio)</li>
+                </ul>
+            </div>
+            <div class="col one-whole">
+                <div class="col one-fourth cookbook-recipe-ingredients">
+                    <h3>Ingredientes:</h3>
+                    <ul>
+                        <li>300gr. Agua (2 vasos llenos)</li>
+                        <li>340gr. Patatas (2 medianas)</li>
+                        <li>300gr. Calabacín (1 mediano)</li>
+                        <li>75gr. Cebolla (media mediana)</li>
+                        <li>15gr Ajos (3 dientes)</li>
+                        <li>10gr. Aceite oliva (1 cucharada)</li>
+                        <li>2gr. Sal</li>
+                    </ul>
+                </div>
+                <div class="col three-fourths cookbook-recipe-text">
+                    <div class="col one-whole cookbook-recipe-elaboration">
+                        <h3>Elaboración:</h3>
+                        Se limpian, pelan y pican todos los ingredientes, y se les añade al
+                        agua en la olla rápida. Se añade el aceite y la sal. Cuando suba la preción,
+                        mantener durante unos 15 minutos. Batir cuando esté templado.
+                    </div>
+                    <div class="col one-whole cookbook-recipe-dessert">
+                        <h3>Postre:</h3>
+                        <p>140gr. Piña en rodajas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
