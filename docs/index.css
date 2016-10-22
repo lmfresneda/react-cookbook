@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Proza+Libre|Raleway');
+
+body {
+    font-family: 'Open Sans', 'Raleway', 'Proza Libre', sans-serif;
+    font-size: 16px;
+}
+
+.row {
+    clear: both;
+    margin: 1em 0;
+    padding: 4px 8px;
+    overflow: hidden;
+}
+.col {
+    float: left;
+}
+.col.one-whole {
+    width: 100%;
+}
+.col.four-fifths{
+    width: 80%;
+}
+.col.three-fourths {
+    width: 75%;
+}
+.col.two-thirds {
+    width: 66.7%;
+}
+.col.one-half {
+    width: 50%;
+}
+.col.one-third {
+    width: 33.3%;
+}
+.col.one-fourth{
+    width: 25%;
+}
+.col.one-fifth{
+    width: 20%;
+}
+.col.one-seventh{
+    width: 14.2%;
+}
+.col.one-tenth {
+    width: 10%;
+}
+
+input, select, textarea {
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 4px;
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    background: #f0f0f0;
+}
+
+input.error, select.error, textarea.error {
+    border-color: #f00;
+}
+
+input.big, textarea.big {
+    min-width: 400px;
+}
+.error-text {
+    display: block;
+    padding: 0 4px;
+    color: #f00;
+}
+h1{
+    color: #4d4d4d;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #4d4d4d;
+}
+
+a{
+    color: #1681d8;
+    text-decoration: none;
+    transition: all .3s;
+}
+a:hover{
+    /*background-color: #f3f3f3;*/
+    color: red;
+}
+
+
+
+/* Home recetas */
+
+.cookbook{
+    margin: 10px auto;
+}
+.cookbook > div{
+    /*border: 1px solid grey;*/
+    padding: 15px;
+}
+
+.cookbook-home{
+    width: 97% !important;
+}
+.cookbook-home > div {
+    margin-top: 5%;
+}
+.cookbook-home .cookbook-checkbox-moments{
+    margin-left: 16%;
+}
+.cookbook-home .cookbook-checkbox-days {
+    margin-left: 10%;
+}
+.cookbook-home .cookbook-checkbox-button {
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.cookbook-checkbox label {
+    cursor: pointer;
+    display: block;
+    padding: 15px;
+    background-color: #efefef;
+    text-align: center;
+    border-top: 1px solid #cac9c9;
+    border-bottom: 1px solid #cac9c9;
+    border-right: 1px solid #cac9c9;
+    transition: all .3s;
+}
+.cookbook-checkbox:first-child label{
+    border-left: 1px solid #cac9c9;
+}
+.cookbook-checkbox label:hover {
+    background-color: #cac9c9 !important;
+}
+.cookbook-checkbox input {
+    position: absolute;
+    left: -9999px;
+}
+.cookbook-checkbox input:checked +  label {
+    background-color: #cac9c9;
+    box-shadow: #8e8e8e 1px 1px 12px inset;
+}
+
+
+/* Listado recetas */
+
+.cookbook-recipes-container{
+    display: inline-flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+}
+.cookbook-recipes-recipe{
+    border: 1px solid #bbbbbb;
+    background-color: #f3f3f3;
+    flex: 0 1 30%;
+    -webkit-flex: 0 1 30%;
+    margin-bottom: 15px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all .8s;
+}
+.cookbook-recipes-recipe:hover{
+    background-color: #bbbbbb;
+}
+.cookbook-recipes-recipe-photo{
+    max-height: 150px;
+    overflow: hidden;
+    opacity: .7;
+    transition: all .8s;
+}
+.cookbook-recipes-recipe:hover > .cookbook-recipes-recipe-photo{
+    max-height: 200px;
+    opacity: 1;
+}
+.cookbook-recipes-recipe img{
+    width: 100%;
+}
+.cookbook-recipes-recipe h2{
+    margin-top: 0px;
+    font-size: 1.1rem;
+    max-width: 94%;
+}
+.cookbook-recipes-recipe p{
+    margin: 5px 0px 1px 0px;
+    font-size: .8rem;
+}
+.cookbook-recipes-recipe .cookbook-recipes-recipe-text{
+    padding: 10px;
+}
+
+
+
+/* Layout Receta */
+
+.cookbook-recipe{
+    border: 1px solid #bbbbbb;
+    background-color: #f3f3f3;
+}
+.cookbook-recipe-photo{
+    max-height: 250px;
+    overflow: hidden;
+    opacity: .7;
+    transition: all 1s;
+}
+.cookbook-recipe-photo:hover{
+    max-height: 1000px;
+    opacity: 1;
+}
+.cookbook-recipe-photo img{
+    width: 100%;
+}
+
+.cookbook-recipe-info-mini ul {
+    padding-right: 10px;
+    text-align: right;
+}
+.cookbook-recipe-info-mini ul li {
+    list-style-type: none;
+    display: inline;
+    border: 1px solid gray;
+    padding: 3px;
+    font-size: .8rem;
+    background-color: #fdfdfd;
+    margin-left: 5px;
+}
+.cookbook-recipe-ingredients ul {
+    padding-left: 10px;
+}
+.cookbook-recipe-ingredients ul li {
+    list-style-type: none;
+    font-size: .8rem;
+    margin-top: 10px;
+}
+.cookbook-recipe-ingredients h3{
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para ejercicio carrito de la compra */
+.shopping-cart {
+    display: none;
+    width: 972px;
+    margin: 10px auto;
+}
+
+.shopping-cart .button {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    background: #876;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+.shopping-cart .button:hover {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    background: #987;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.catalog , .cart {
+    /*display: none;*/
+}
+
+.catalog, .cart, .checkout, .thank-you {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 2em;
+}
+.footer {
+    clear: left;
+}
+.shop-header {
+    border-bottom: 1px solid #f93;
+    margin-bottom: 1em;
+}
+.shop-header h2 {
+    margin: 0;
+}
+.product {
+
+}
+h2.product-title {
+    font-size: 16px;
+}
+.product-image {
+
+}
+.product-summary {
+    vertical-align: top
+}
+.product-add-to-cart {
+    text-align: right;
+    padding-top: 20px;
+}
+.product-add-to-cart .product-price {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    margin: 0 0 1em 0;
+}
+.product-add-to-cart .button {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    background: #f93;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.cart {
+
+}
+
+.cart table {
+    width: 100%;
+}
+.cart th.qty, .cart td.qty {
+    width: 60px;
+    text-align: center
+}
+th.description, td.description {
+    max-width: 40%;
+    text-align: left;
+}
+td.description h3 {
+    font-size: 16px;
+}
+th.unit-price, td.unit-price , td.subtotal, th.subtotal{
+    text-align: right;
+    min-width: 100px;
+}
+td.actions, th.actions {
+    min-width: 200px;
+    text-align: right;
+}
+td.actions .button, td.actions .button:hover {
+    font-size: 12px;
+    padding: 4px;
+}
+tr.summary td {
+    border-top: 1px solid #999;
+    padding: 8px 0;
+}
+td.total {
+    text-align: right;
+    font-weight: bold;
+}
+
+td.cart-empty {
+    padding: 20px;
+}
+.checkout {
+
+}
