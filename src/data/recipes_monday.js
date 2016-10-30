@@ -1,38 +1,38 @@
 
 export default {
     "food": [
-        {
-            id: 1101,
-            title: "Garbanzos con chorizo",
-            photo: "http://2.bp.blogspot.com/-Zps-WJqgRYM/VMkmEhl6k9I/AAAAAAAAJ0Q/OTq_EU3cscs/s1600/potaje%2Bgarbanzos.JPG",
-            portion: 2,
-            explainedPortion: "DOS vasos llenos hasta el borde",
-            dessert: "Yogur desnatado",
-            severalDishes: false,
-            accompaniments: [],
-            forPortions: 2,
-            time: "45min",
-            category: "Fácil",
-            ingredients: [
-                "550gr. Agua (3 vasos llenos)",
-                "200gr. Garbanzos (un vaso)",
-                "125gr. Patata (una pequeña)",
-                "75gr. Cebolla (media mediana)",
-                "40gr. Zanahoria (una pequeña)",
-                "15gr. Ajos",
-                "40gr. Chorizo",
-                "2gr. Sal",
-                "1 Hoja de laurel",
-                "Un poco de perejil"
-            ],
-            elaboration: [
-                "Se ponen los garbanzos a remojo la noche anterior con sal. " +
-                "En la olla rápida se ponen los garbanzos con los 3 vasos de agua, y se añaden " +
-                "todos los otros ingredientes, lavados y troceados. " +
-                "Se cierra la olla y se deja cocer todo aproximadamente 40 minutos a partir de " +
-                "subir la presión de la olla."
-            ]
-        }
+            {
+                id: 1101,
+                title: "Garbanzos con chorizo",
+                photo: "http://2.bp.blogspot.com/-Zps-WJqgRYM/VMkmEhl6k9I/AAAAAAAAJ0Q/OTq_EU3cscs/s1600/potaje%2Bgarbanzos.JPG",
+                portion: 2,
+                explainedPortion: "DOS vasos llenos hasta el borde",
+                dessert: "Yogur desnatado",
+                severalDishes: false,
+                accompaniments: [],
+                forPortions: 2,
+                time: "45min",
+                category: "Fácil",
+                ingredients: [
+                    "550gr. Agua (3 vasos llenos)",
+                    "200gr. Garbanzos (un vaso)",
+                    "125gr. Patata (una pequeña)",
+                    "75gr. Cebolla (media mediana)",
+                    "40gr. Zanahoria (una pequeña)",
+                    "15gr. Ajos",
+                    "40gr. Chorizo",
+                    "2gr. Sal",
+                    "1 Hoja de laurel",
+                    "Un poco de perejil"
+                ],
+                elaboration: [
+                    "Se ponen los garbanzos a remojo la noche anterior con sal. " +
+                    "En la olla rápida se ponen los garbanzos con los 3 vasos de agua, y se añaden " +
+                    "todos los otros ingredientes, lavados y troceados. " +
+                    "Se cierra la olla y se deja cocer todo aproximadamente 40 minutos a partir de " +
+                    "subir la presión de la olla."
+                ]
+            }
     ],
     "dinner": [
         {
@@ -110,25 +110,3 @@ export default {
         }
     ]
 }
-
-/*
-{
-    id: 11,
-    title: "",
-    photo: "",
-    portion: 0,
-    explainedPortion: "",
-    dessert: "Yogur desnatado",
-    severalDishes: false,
-    accompaniments: [],
-    forPortions: 2,
-    time: "45min",
-    category: "Fácil",
-    ingredients: [
-        ""
-    ],
-    elaboration: [
-        ""
-    ]
-}
-*/
