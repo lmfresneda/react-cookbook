@@ -189,29 +189,20 @@ export default {
             explainedPortion: "Receta completa",
             dessert: "1 kiwi",
             severalDishes: true,
-            accompaniments: [3201],
+            accompaniments: [3201, 3203],
             forPortions: 1,
-            time: "25min",
+            time: "15min",
             category: "Fácil",
             ingredients: [
-                "150gr. Pollo troceado",
-                "125gr. Pimientos rojos",
-                "125gr. Pimientos verdes",
-                "100gr. Champiñones",
+                "60gr. Lechuga",
+                "100gr. Tomate",
+                "25gr. Cebolla",
                 "5gr. Aceite oliva",
-                "5gr. Pimentón",
-                "10gr. Ajos (2 dientes)",
-                "5gr. Vinagre (para el adobo)",
-                "Orégano y sal"
+                "Vinagre y sal"
             ],
             elaboration: [
-                "Adobar los trozos de pechuga de pollo, añadiendo un poco de sal, ajo majado (puede ser " + 
-                "en polvo), orégano y pimentón. Mezclar todo bien con el pollo. Si no se reparte bien " +
-                "se puede humedecer ligeramente con vinagre.",
-                "Lavar y trocear en cuadrados los pimientos y ensartarles en las brochetas, alternando " + 
-                "la carne de pollo, pimiento rojo, pimiento verde y champiñón.",
-                "Humedecer la plancha con un poco de aceite de oliva y colocar las brochetas a asar " +
-                "hasta que estén bien hechas."
+                "Lavar y trocear el tomate. Lavar la lechuga y partirla en juliana. Partir " + 
+                "también la cebolla en tiras finas. Aliñar con el aceite, vinagre y sal."
             ]
         },{
             id: 3203,
