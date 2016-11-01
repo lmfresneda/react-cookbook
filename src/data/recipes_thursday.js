@@ -97,6 +97,148 @@ export default {
         }
     ],
     "dinner": [
-
+        {
+            id: 4201,
+            title: "Revuelto de cebolla y pimiento verde con gulas",
+            photo: "http://1.bp.blogspot.com/-6_FO9XZpe6g/VBAZK0HdxhI/AAAAAAAAAO4/D__Bo-dCKSA/s900/Revuelto%2Bde%2Bgulas%2By%2Bchampi%C3%B1ones.JPG",
+            portion: 1,
+            explainedPortion: "Receta completa",
+            dessert: "140gr. Piña en rodajas",
+            severalDishes: true,
+            accompaniments: [4202],
+            forPortions: 1,
+            time: "20min",
+            category: "Fácil",
+            ingredients: [
+                "100gr. Huevo (2 pequeños)",
+                "50gr. Gulas",
+                "25gr. Cebolla",
+                "65gr. Pimiento verde",
+                "5gr. Ajos (1 diente)",
+                "5gr. Aceite oliva (1 cucharadita)",
+                "Perejil"
+            ],
+            elaboration: [
+                "Se trocean pequeños el ajo, la cebolla y el pimiento, y se deja hacer en la " +
+                "sartén despacio y tapado con la cucharadita de aceite.",
+                "Cuando la cebolla esté transparente se añaden las gulas y se mezcla todo.",
+                "Se añaden los huevos y se cuajan, removiéndolo todo despacio. Casi al final se " +
+                "agrega el perejil."
+            ]
+        },{
+            id: 4202,
+            title: "Ensalada de lechuga",
+            photo: "http://www.cocinasincarne.es/wp-content/uploads/2015/07/Ensalada-de-lechuga-naranja-e-higos.jpg",
+            portion: 1,
+            explainedPortion: "Receta completa",
+            dessert: "140gr. Piña en rodajas",
+            severalDishes: true,
+            accompaniments: [4201, 4205, 4206],
+            forPortions: 1,
+            time: "10min",
+            category: "Fácil",
+            ingredients: [
+                "100gr. Lechuga",
+                "5gr. Aceite oliva",
+                "Vinagre al gusto",
+                "Sal"
+            ],
+            elaboration: [
+                "Lavar y partir en trozos o juliana las hojas de lechuga. Aliñar con el " +
+                "aceite, el vinagre y la sal"
+            ]
+        },{
+            id: 4203,
+            title: "Crema de puerros",
+            photo: "http://recetas-de.net/wp-content/uploads/2015/04/crema-de-puerros.jpg",
+            portion: 1,
+            explainedPortion: "1 vaso lleno hasta el borde",
+            dessert: "140gr. Piña en rodajas",
+            severalDishes: true,
+            accompaniments: [4204],
+            forPortions: 3,
+            time: "20min",
+            category: "Fácil",
+            ingredients: [
+                "340gr. Patatas",
+                "150gr. Puerros",
+                "10gr. Aceite oliva (1 cucharada)",
+                "Sal"
+            ],
+            elaboration: [
+                "Se ponen todos los ingredientes en la olla rápida, limpios y troceados. " +
+                "Es conveniente cortar bien los puerror, para que no se hagan hilos al batirlos. " +
+                "Se cuece durante 15 minutos a contar desde la subida de la presión en la olla."
+            ]
+        },{
+            id: 4204,
+            title: "Revuelto de jamón york",
+            photo: "https://img-global.cpcdn.com/002_recipes/recipes_199551_v1431435853_receta_foto_00199551-anreyvifu73buuzjfkpl/664x470cq70/photo.jpg",
+            portion: 1,
+            explainedPortion: "Receta completa",
+            dessert: "140gr. Piña en rodajas",
+            severalDishes: true,
+            accompaniments: [4203],
+            forPortions: 1,
+            time: "15min",
+            category: "Fácil",
+            ingredients: [
+                "100gr. huevo (2 pequeños)",
+                "35gr. Jamón cocido",
+                "5gr. Aceite oliva"
+            ],
+            elaboration: [
+                "Se pone la sartén a calentar humedecida de aceite y se añade el jamón " +
+                "de york partido en trocitos para que se dore un poco. Se añaden los dos " +
+                "huevos y se mezcla hasta que cuajen."
+            ]
+        },{
+            id: 4205,
+            title: "Huevos rellenos con atún",
+            photo: "http://sevilla.abc.es/gurme//wp-content/uploads/2009/07/600_huevosrellenosatun_1252493484.jpg",
+            portion: 1,
+            explainedPortion: "Receta completa",
+            dessert: "140gr. Piña en rodajas",
+            severalDishes: true,
+            accompaniments: [4202],
+            forPortions: 1,
+            time: "20min",
+            category: "Fácil",
+            ingredients: [
+                "120gr. Huevos (2 medianos)",
+                "40gr. Atún claro al natural",
+                "14gr. Mayonesa (1 cucharadita)"
+            ],
+            elaboration: [
+                "Cocer los huevos, enfriarlos y pelarlos. Dividirlos en dos a lo largo, " +
+                "extraer la yema y mezclarla con el atún y la cucharadita de mayonesa. Rellenar " +
+                "con esta pasta los huevos.",
+                "Puede poner un trocito de lechuga como 'cama' bajo los huevos."
+            ]
+        },{
+            id: 4206,
+            title: "Huevos rellenos de tomate con queso",
+            photo: "http://thumbs.dreamstime.com/z/huevos-rellenos-con-queso-del-tomate-12944917.jpg",
+            portion: 1,
+            explainedPortion: "Receta completa",
+            dessert: "140gr. Piña en rodajas",
+            severalDishes: true,
+            accompaniments: [4202],
+            forPortions: 1,
+            time: "20min",
+            category: "Fácil",
+            ingredients: [
+                "120gr. Huevos (2 medianos)",
+                "40gr. Tomate frito",
+                "20gr. Tranchetes light"
+            ],
+            elaboration: [
+                "Cocer los huevos, enfriarlos y pelarlos. Dividirlos en dos a lo largo, " +
+                "extraer la yema y mezclarla con el tomate frito. Rellena con esta pasta los huevos. " +
+                "Colocarlos sobre un plato y sobre ellos poner la loncha de queso. Gratinar o calentar " +
+                "un poco en el microondas para que se funda el queso sobre los huevos.",
+                "Se puede añadir orégano por encima, o en la mezcla del relleno."
+            ]
+        }
     ]
 }
